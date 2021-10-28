@@ -1,3 +1,5 @@
+/* don't forget to put some comments :) */
+
 table{
 	width: 330px;
 }
@@ -5,7 +7,7 @@ table{
 th{
 	text-align: left;
 }
-
+/* want to collapse to don't have double margin */
 table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
@@ -49,7 +51,7 @@ p{
 	font-family: 'Slabo 27px', serif;
 	font-family: 'Tillana', cursive;
 }
-/* On screens that are 992px or less, set the background color to orange */
+/* change the text colour in white */
 @media screen and (max-width: 992px) {
   body {
     
